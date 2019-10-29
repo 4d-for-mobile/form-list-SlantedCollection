@@ -11,3 +11,7 @@
 
 * To use a custom list form template, the first thing you'll need to do is create a YourDatabase.4dbase/Resources/Mobile/form/list folder.
 * Then drop the list form folder into it.
+* 
+## Acknowledgment
+
+* [CollectionViewSlantedLayout](https://github.com/yacir/CollectionViewSlantedLayout) is released under the MIT license.
