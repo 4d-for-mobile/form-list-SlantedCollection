@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "___PRODUCT___", targets: ["___PRODUCT___"])
     ],
     dependencies: [
-       .package(url: "https://github.com/yacir/CollectionViewSlantedLayout.git", .upToNextMajor(from: "3.1.1")), 
+       .package(url: "https://github.com/yacir/CollectionViewSlantedLayout.git", .revision("HEAD")), 
        .package(url: "https://github.com/4d-for-ios/QMobileUI.git", .revision("HEAD"))
     ],
     targets: [
