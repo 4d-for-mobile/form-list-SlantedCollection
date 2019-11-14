@@ -1,4 +1,4 @@
-<p align="center"><img src="https://developer.4d.com/4d-for-ios/docs/assets/en/template-formatters/Listform-slanted-collection.gif" alt="Slanted Collection" height="auto" width="300"></p>
+<p align="center"><img src="https://github.com/4d-for-ios/4d-for-ios-form-list-SlantedCollection/blob/master/template.gif" alt="Slanted Collection" height="auto" width="300"></p>
 
 ## Slanted Collection
 
