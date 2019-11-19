@@ -22,6 +22,7 @@ class ___TABLE___CustomCollectionCell: CollectionViewSlantedCell {
     private var gradient = CAGradientLayer()
     var angle = CGFloat()
 
+    // swiftlint:disable:next cyclomatic_complexity
     override func awakeFromNib() {
         super.awakeFromNib()
 
