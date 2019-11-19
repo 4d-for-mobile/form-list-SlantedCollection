@@ -54,13 +54,8 @@ class ___TABLE___ListForm: ListFormCollection {
         textFieldInsideUISearchBar?.textColor = blueColor
         textFieldInsideUISearchBar?.font = UIFont(name: "HelveticaNeue-Thin", size: 15)
 
-        // SearchBar placeholder style
-        let textFieldInsideUISearchBarLabel = textFieldInsideUISearchBar!.value(forKey: "placeholderLabel") as? UILabel
-        textFieldInsideUISearchBarLabel?.textColor = blueColor
-        textFieldInsideUISearchBarLabel?.font = UIFont(name: "HelveticaNeue-Thin", size: 15)
         self.refreshControl?.tintColor = blueColor
         searchBar.searchBarStyle = UISearchBar.Style.prominent
-        searchBar.placeholder = " Search by address"
         searchBar.isTranslucent = false
         searchBar.backgroundImage = UIImage()
         searchBar.delegate = self
@@ -71,7 +66,6 @@ class ___TABLE___ListForm: ListFormCollection {
         // Called when the view is about to made visible. Default does nothing
         collectionView.collectionViewLayout.invalidateLayout()
         collectionView.contentInset.top = -UIApplication.shared.statusBarFrame.height
-
     }
 
     override func onDidAppear(_ animated: Bool) {
