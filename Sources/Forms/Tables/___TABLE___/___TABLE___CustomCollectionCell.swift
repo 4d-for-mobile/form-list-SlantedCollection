@@ -1,10 +1,9 @@
 //
-//  CustomCollectionCell.swift
-//  CollectionViewSlantedLayout
+//  ___TABLE___CustomCollectionCell.swift
+//  ___PACKAGENAME___
 //
-//  Created by Yassir Barchi on 28/02/2016.
-//  Copyright © 2016 CocoaPods. All rights reserved.
-//
+//  Created by ___FULLUSERNAME___ on ___DATE___
+//  ___COPYRIGHT___
 
 import Foundation
 import UIKit
